@@ -1,0 +1,7 @@
+"Grants for staff@localhost"
+"GRANT USAGE ON *.* TO `staff`@`localhost`"
+"GRANT SELECT, INSERT, UPDATE (`album_name`, `number_of_songs`, `performer_id`), DELETE ON `concertvenue`.`album` TO `staff`@`localhost`"
+"GRANT ALL PRIVILEGES ON `concertvenue`.`concert` TO `staff`@`localhost`"
+"GRANT SELECT, INSERT, UPDATE (`concert_id`, `email`, `passes_id`, `phone`), DELETE ON `concertvenue`.`customer` TO `staff`@`localhost`"
+"GRANT ALL PRIVILEGES ON `concertvenue`.`merchandise` TO `staff`@`localhost`"
+"GRANT ALL PRIVILEGES ON `concertvenue`.`performer` TO `staff`@`localhost`"
